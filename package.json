@@ -1,0 +1,34 @@
+{
+  "name": "communityappwebprototype",
+  "version": "1.0.0",
+  "description": "PoC Web App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizmota82/CommunityAppWebPrototype.git"
+  },
+  "author": "Luiz Mota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizmota82/CommunityAppWebPrototype/issues"
+  },
+  "homepage": "https://github.com/luizmota82/CommunityAppWebPrototype#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
